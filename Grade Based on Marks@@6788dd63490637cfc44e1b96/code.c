@@ -12,7 +12,7 @@ int main() {
     }else if (marks>=60 and marks<70){
         printf("D");
     }else{
-        printf("F")
+        printf("F");
     }
     return 0;
 }
