@@ -22,7 +22,7 @@ int main() {
             result = n1/n2;
             printf("%d",result);
         }else{
-            printf("Error");
+            printf("error");
         }
         break;
         default: printf("Invalid");
