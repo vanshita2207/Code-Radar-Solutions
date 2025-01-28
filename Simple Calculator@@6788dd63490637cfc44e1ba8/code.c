@@ -8,6 +8,25 @@ int main() {
         case '+': result = n1+n2;
         printf("%d",result);
         break;
+
+        case '-': result= n1-n2;
+        printf("%d",result);
+        break;
+
+        case '*': result= n1*n2;
+        printf("%d",result);
+        break;
+
+        case '/': 
+        if(n2!=0){
+            result = n1/n2;
+            printf("%d",result);
+        }else{
+            printf("Error");
+        }
+        break;
+        default: printf("Invalid");
+        break;
     }
     return 0;
 }
