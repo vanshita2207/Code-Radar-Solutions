@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d %c",&n1,&n2,&oper);
     switch(oper){
         case '+': result = n1+n2;
-        printf(result);
+        printf("%d",result);
         break;
     }
     return 0;
