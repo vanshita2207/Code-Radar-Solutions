@@ -8,9 +8,9 @@ int main() {
             printf("*");
         }
         if(i=='1' || j=='1' || i==n-1 || j==n-1){
-            printf("*")
+            printf("*");
         }else{
-            printf(" ")
+            printf(" ");
         }
         printf("\n");
     }
