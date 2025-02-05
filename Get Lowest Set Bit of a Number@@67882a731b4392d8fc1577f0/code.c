@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int lowestbit(int n){
         int position = 0;
         while (n>0){
