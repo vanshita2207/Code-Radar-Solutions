@@ -7,6 +7,11 @@ int main() {
         for(int j=0 ; j<n; j++){
             printf("*");
         }
+        if(i=='1' || j=='1' || i==n-1 || j==n-1){
+            printf("*")
+        }else{
+            printf(" ")
+        }
         printf("\n");
     }
     return 0;
