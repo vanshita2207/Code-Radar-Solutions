@@ -17,6 +17,7 @@ int main() {
         scanf("%d",&a);
         int result = lowestbit(n);
         printf("%d",result);
+        return 0;
     }
-    return 0;
+    
 }
