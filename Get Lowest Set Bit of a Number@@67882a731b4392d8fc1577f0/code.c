@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-    int lowestbit(int n){
+int lowestbit(int n){
         int position = 0;
         while (n>0){
             if (n%2==1){
