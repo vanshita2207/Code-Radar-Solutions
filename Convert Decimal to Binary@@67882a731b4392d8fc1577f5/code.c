@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(){
 
 int n, binary [32],1=0;
 
@@ -18,5 +18,5 @@ while(n>0){
 while(i-){
     printf("%d", binary[i]);
 }
-
 return 0;
+}
