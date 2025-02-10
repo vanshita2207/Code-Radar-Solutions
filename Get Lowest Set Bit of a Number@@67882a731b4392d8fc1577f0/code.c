@@ -1,20 +1,15 @@
 #include <stdio.h>
 
-int lowestbit(int n){
-        int position = 0;
-        while (n>0){
-            if (n%2==1){
-                return position;
-            }
-            n = n/2;
-            position++;
+int main(){
+    int a,b=0;
+    scanf("%d",&a);
+    while(a!=0){
+        if(a&1==1){
+            break;
         }
-        return -1;}
-    int main(){
-        int n;
-        scanf("%d",&a);
-        int result = lowestbit(n);
-        printf("%d",result);
-        return 0;
+        a=a>>1;
+        b++;
     }
-    
+    printf("%d",b);
+    return 0;
+}
