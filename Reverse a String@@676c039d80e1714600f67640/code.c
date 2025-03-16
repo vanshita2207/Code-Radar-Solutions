@@ -5,7 +5,7 @@
 int main(){
     char str[100];
     scanf("%s",&str);
-    int left=0; right= strlen(str)-1;
+    int left=0; int right= strlen(str)-1;
     while(left<right){
         char temp = str[left];
         str[left] = str[right];
