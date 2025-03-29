@@ -2,7 +2,7 @@ void fibonacciSeries(int n) {
     int fib[n]; 
     fib[0] = 0;
 
-    if(fib[n] == 1){
+    if(n == 1){
         printf("%d",fib[0]);
         return;
     }
