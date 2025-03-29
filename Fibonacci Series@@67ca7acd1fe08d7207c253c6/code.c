@@ -1,16 +1,12 @@
-// Your code here...
-#include <stdio.h>
-int memo[1000];
-// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
-// fibonacci(n) = fibonacci(n-1) + fibonacci(n-2);
+void fibonacciSeries(int n) {
+    int fib[n]; 
+    fib[0] = 0, fib[1] = 1;
 
-int fibonacciSeries(int n){
-    if(n == 1 || n==2){
-        return n-1;
+    // printf("%d %d ", fib[0], fib[1]);
+
+    for (int i = 2; i < n; i++) {
+        fib[i] = fib[i - 1] + fib[i - 2];
+        printf("%d ", fib[i]);
     }
-    if(memo[n] != -1){
-        return memo[n];
-    }
-    return memo[n] = fibonacciSeries(n-1) + fibonacciSeries(n-2);
+    printf("\n");
 }
- 
