@@ -9,7 +9,6 @@ int compare(const void *a, const void *b) {
 // Function to find k-th smallest element
 int kthSmallest(int arr[], int n, int k) {
     if (k <= 0 || k > n) {
-        printf("Invalid value of k\n");
         return -1; // Error handling
     }
 
