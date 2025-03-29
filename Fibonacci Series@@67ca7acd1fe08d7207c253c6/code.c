@@ -4,6 +4,7 @@ void fibonacciSeries(int n) {
 
     if(fib[n] == 1){
         printf("%d",fib[0]);
+        return;
     }
 
     fib[1] = 1;
