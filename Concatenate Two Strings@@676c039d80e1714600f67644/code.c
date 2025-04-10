@@ -1,25 +1,21 @@
 // Your code here...
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     char str1[200], str2[200];
-    int i = 0, j = 0;
 
-    scanf("%s", &str1);  
-    scanf("%s", &str2);  
+    fgets(str1, sizeof(str1), stdin);
+    fgets(str2, sizeof(str2), stdin);
 
-    while (str1[i] != '\0') {
-        i++;
-    }
-    while (str2[j] != '\0') {
-        str1[i] = str2[j];
-        i++;
-        j++;
-    }
+    // Remove newline characters from fgets if they exist
+    str1[strcspn(str1, "\n")] = '\0';
+    str2[strcspn(str2, "\n")] = '\0';
 
-    str1[i] = '\0'; 
+    strcat(str1, str2);  // Use string concatenation
 
     printf("%s\n", str1);
 
     return 0;
 }
+
