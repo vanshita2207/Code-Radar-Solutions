@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    char str1[100], str2[100];
+    char str1[200], str2[200];
     int i = 0, j = 0;
 
     scanf("%s", &str1);  
