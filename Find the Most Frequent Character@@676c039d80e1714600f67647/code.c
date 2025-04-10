@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    char str[200], sub[50];
+    char str[200], sub[50];
     int i, j, found, count = 0;
     int str_len, sub_len;
     
