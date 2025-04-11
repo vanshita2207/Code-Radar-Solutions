@@ -14,7 +14,6 @@ int main(){
     int counteven = 0;
     int countodd = 0;
     int n;
-    int n;
     scanf("%d",&n);
     int arr[n];
 
