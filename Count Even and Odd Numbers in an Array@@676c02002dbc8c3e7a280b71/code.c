@@ -14,7 +14,6 @@ int main(){
     int counteven = 0;
     int countodd = 0;
     int n;
-    printf(countodd);
-    printf(counteven);
+    printf( "%d %d",counteven, countodd);
     return 0;
 }
