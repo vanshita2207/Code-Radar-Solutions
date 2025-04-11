@@ -21,7 +21,7 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
-    count(arr, n, &counteven, &countodd)
+    count(arr, n, &counteven, &countodd);
     printf( "%d %d",counteven, countodd);
     return 0;
 }
