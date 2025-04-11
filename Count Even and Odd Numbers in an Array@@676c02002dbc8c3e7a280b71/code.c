@@ -14,6 +14,7 @@ int main(){
     int counteven = 0;
     int countodd = 0;
     int n;
+    count(arr, n, &counteven, &countodd)
     printf( "%d %d",counteven, countodd);
     return 0;
 }
