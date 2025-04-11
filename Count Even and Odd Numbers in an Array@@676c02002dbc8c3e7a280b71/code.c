@@ -1,29 +1,20 @@
 #include <stdio.h>
 
 int count(int arr[], int n){
-    int counteven = 0;
-    int countodd = 0;
     for(int i=0; i<n; i++){
         if(arr[i] % 2 != 0){
-            countodd++;
+            *countodd++;
         }else{
-            counteven++;
+            *counteven++;
         }
     }
 }
 
 int main(){
+    int counteven = 0;
+    int countodd = 0;
     int n;
-    scanf("%d",&n);
-    int arr[n];
-
-    for(int i=0; i<n; i++){
-        scanf("%d",&arr[i]);
-    }
-    //output
-    for(int i =0 ; i<n; i++){
-        printf("%d\t", count(arr,n));
-    }
-    printf("\n");
+    printf(countodd);
+    printf(counteven);
     return 0;
 }
