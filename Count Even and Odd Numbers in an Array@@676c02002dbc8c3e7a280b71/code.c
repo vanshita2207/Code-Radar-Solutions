@@ -5,9 +5,9 @@ int count(int arr[], int n){
     int countodd = 0;
     for(int i=0; i<n; i++){
         if(arr[i] % 2 != 0){
-            counteven++;
-        }else{
             countodd++;
+        }else{
+            counteven++;
         }
     }
 }
