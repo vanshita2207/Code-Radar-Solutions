@@ -6,8 +6,9 @@ int sort(int arr[],int n){
         if(arr[i] > arr[n+1]){
             return 0;
         }
+        return 1;
     }
-    return 1;
+    
 }
 int main(){
     int n;
