@@ -14,6 +14,14 @@ int main(){
     int counteven = 0;
     int countodd = 0;
     int n;
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+
+    //input
+    for(int i=0; i<n; i++){
+        scanf("%d",&arr[i]);
+    }
     count(arr, n, &counteven, &countodd)
     printf( "%d %d",counteven, countodd);
     return 0;
